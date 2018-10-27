@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Animal Buttons</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="javascript/gif.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="text-center text-primary"> Gif Search</h1>
+        </div>
+    </div>
+    <div class="container  ">
+        <div class="container  gif-button">
+            <div class="row">
+                <div class="col-4 searchButton text-left">
+
+                    <form class="form-inline">
+
+                        <div class="form-group mx-sm-3 mb-2">
+
+                            <input type="text" class="form-control" id="newGif">
+                        </div>
+                        <button type="button" class="btn btn-primary mb-2" id="addGif1">Search Gif</button>
+                    </form>
+
+                    <!--  <input type="text" id="newGif">
+                            <button id="addGif1" class="btn-primary">Search Gif</button> -->
+                </div>
+                <div class="col-8 searchButton text-left">
+                    <div class="diplayButton form-inline"></div>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row searchButton">
+                <div class="col-md-2">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Hints</div>
+                        <div class="panel-body">
+                            <P class="text-primary"> You Can Search for Any Numbers Of Gif.</P>
+                            <hr>
+                            <P class="text-primary"> You Can Add To your favorite List By Duble Click on gif button.</P>
+                            <hr>
+                            <P class="text-primary"> You Click on Any Of Yoyr favorite Gif.. It will Show On
+                                DisplayArea </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 searchButton searchButton main-cont ">
+                    <div id="gifs-appear-here"> </div>
+                </div>
+                <div class="col-md-2">
+                    <form id="form">
+                    <button id="Add-fav" class="btn btn-primary">ADD favorite Gif</button>
+                    <br>
+                    <input type="text" id="fav-gif">
+                </form>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Favorite List</div>
+                        <div class="panel-body">
+                            <div id="display-fav">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

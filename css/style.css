@@ -1,0 +1,41 @@
+
+    body{
+        background-image: url("../images/back.png"); 
+    background-color: #cccccc;
+}
+.main-cont{
+     background-image: url("../images/back_gif.png"); 
+}
+.gif-button{
+     background-image: url("../images/back_gif.png"); 
+}
+    .searchButto1n{
+        background-color: #ddd5d5;
+        border: 1px solid black;
+    }
+    .gifDisplay{
+        background-color: #ddd5d5;
+        border: 1px solid black;
+        display: inline-block;
+    }
+    .pad{
+        margin-left: 10px;
+    }
+    .form-inline
+    {
+  
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+#form 
+{
+  
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#fav-gif{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
